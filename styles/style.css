@@ -333,6 +333,91 @@ font-size: 0.87;
 margin-top: 14px;
 
 }
+.BMI-calculator{
+  max-width: 1530px;
+  margin: 0 auto;
+  background: rgb(34, 34, 34);
+  padding: 50px 20px;
+  margin-top: 88px;
+}
+.bmi-h3{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.75rem;
+text-align: left;
+margin-bottom: 52px;
+}
+.bmi-H3{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.75rem;
+  text-align: left;
+  margin-bottom: 15px;
+ 
+}
+.bmi-p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+text-align: left;
+width: 577px;
+margin-bottom: 34px;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   padding: 13px 18px;
+   color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+text-align: left;
+}
+th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 13px 18px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 500;
+text-align: left;
+
+
+}
+.BMI-calculator-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+input,#sex{
+  width: 282.5px;
+height: 48px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+margin-bottom: 12px;
+align-items: center;
+padding: 12px 40px 12px 20px;
+color: rgba(255, 255, 255, 0.6);
+text-align: left;
+
+}
+#activity{
+  width: 570px;
+height: 48px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+align-items: center;
+padding: 12px 20px 12px 20px;
+text-align: left;
+border: none;
+}
+ .input-div{
+  margin-bottom: 35px;
+ }
 
   @media screen and (max-width:576px) {
     .nav-content{
@@ -460,6 +545,31 @@ width: 287px;
 }
 .bmi-container h2{
  font-size: 2rem;
+}
+.BMI-calculator-content{
+ flex-direction: column;
+ gap: 50px;
+ 
+}
+
+.bmi-p{
+  width: 346px;
+}
+.right-bmi-content{
+  width: 354px;
+}
+input,#sex{
+  width: 170.5px;
+  height: 48px;
+
+
+}
+#activity{
+  width: 347px;
+  height: 48px;
+}
+#cal-btn{
+  width: 224px;
 }
 }
   
