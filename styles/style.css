@@ -313,6 +313,26 @@ height: 72px;
 margin-top: 15px;
 
 }
+.bmi-container{
+  max-width: 672px;
+  margin: 0 auto;
+ 
+  margin-top: 78px;
+}
+
+.bmi-content h2{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 2.5rem;
+font-weight: 900;
+}
+.bmi-content p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87;
+margin-top: 14px;
+
+}
 
   @media screen and (max-width:576px) {
     .nav-content{
@@ -392,11 +412,9 @@ padding-left: 0;
 font-size: 1.87rem;
 }
 .rec-2 p{
- 
   font-size: 0.56rem;
- 
-
 }
+
  .habit-content{
   grid-template-columns: repeat(1,1fr);
   margin-right: 50px;
@@ -435,6 +453,13 @@ width: 287px;
 }
 .extra-mile-img{
 width: 287px;
+}
+.bmi-container{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.bmi-container h2{
+ font-size: 2rem;
 }
 }
   
