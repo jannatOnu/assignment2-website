@@ -29,11 +29,10 @@
     background-color: black;
   }
   header{
-    max-width:1440px;
+    max-width:1530px;
  margin: 0 auto;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-   background-position: center;
-   background-size: cover;
+    background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
+   
    
   }
 .hamburger-menu{
@@ -89,17 +88,18 @@ margin-right: 47px;
  .banner{
     max-width: 1060px;
     margin: 0 auto;
+    
    
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+   
     
  }
  .banner-content{
-  margin-top: 50px;
-
-    width: 45%;
-    
-    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
     
  }
  .ban-h3{
@@ -113,7 +113,6 @@ font-size: 1rem;
 margin-top: 28px;
 margin-bottom: 28px;
  }
- 
  .join-btn{
     border-radius: 42px;
     width: 224px;
@@ -123,6 +122,7 @@ font-size: 1.12rem;
 font-weight: 600;
 padding: 16px;
 border: none;
+
  }
  .down-btn{
     width: 224px;
@@ -134,18 +134,20 @@ border: none;
 font-size: 1.12rem;
 font-weight: 600;
 padding: 16px;
+
  }
  .banner-img{
     width: 45%;
     align-items: center;
     position: relative;
-    padding-left: 20px;
-   
-    
+    padding-left: 20px;  
  }
- .banner-img img{
-   width: 
-   border: 2px solid yellow;
+ 
+ .banner-img-content img{
+   width: 100%
+   height: 100%;
+   
+   
  }
  .rec-1{
   width: 206px;
@@ -215,6 +217,102 @@ margin-left: 20px;
     margin-left: 20px;
 
   }
+main > section{
+  max-width:1040px;
+  margin: 0 auto;
+  
+
+}
+.habit-title{
+  margin-bottom: 58px;
+  
+}
+.habit-title h2{
+  color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+text-align: center;
+margin-bottom: 14px;
+}
+.habit-title p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+text-align: center;
+
+}
+.habit-content{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  
+}
+.card{
+  margin-left: 40px;
+}
+.card-text{
+  text-align: center;
+}
+.card-text h5{
+  color: rgb(255, 255, 255);
+font-size: 1.12rem;
+font-weight: 600;
+margin-bottom: 8px;
+}
+.card-text p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 0.87rem;
+font-weight: 400;
+
+}
+.card-img{
+  
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.card-img img{
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.extra-mile-container{
+  margin-top: 100px;
+  border-radius: 18px;
+  background-color:  rgb(34, 34, 34);;
+}
+.extra-mile{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  text-align: left;
+}
+.extra-mile-content{
+  width: 55%;
+}
+.extra-mile-img{
+  width: 40%;
+}
+.extra-mile-img img{
+  border-radius: 18px;
+  width: 100%;
+}
+.extra-h2{
+  width: 400px;
+  height: 116px;
+  color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+
+}
+.extra-p{
+  color: rgba(255, 255, 255, 0.5);
+font-size: 0.875rem;
+font-weight: 400;
+width: 420px;
+height: 72px;
+margin-top: 15px;
+
+}
 
   @media screen and (max-width:576px) {
     .nav-content{
@@ -224,37 +322,119 @@ margin-left: 20px;
       display: block;
     }
     .banner{
-    
      flex-direction: column;
-     justify-content: flex-start;
+    gap: 150px;
 }
 .banner-content{
-  width: 100%;
-      text-align: left;
-      align-items: center;
-      
+  width: 352px;
+  justify-content: center;
+  align-items: center;
+  text-align:left ; 
+  margin-left: 20px;
    }
-
+.ban-h3{
+  width: 285px;
+  font-size: 2.25rem;
+  line-height: 150%;
+}
+.shape{
+  font-size: 5rem;
+  font-weight: 900;                                               
+}
+.ban-p{
+  text-align: left;
+}
 .div-btn{
   display: flex;
-  gap: 10px;
+  gap: 8px; 
+}
+#join-id{
+  width: 165px;
   
 }
 .rec-1{
- 
-
-top: 40%;
+top: 36%;
 left:5%;
+width: 155.74px;
+height: max-content;
  }
+
+ .dot-div{
+  width: 30.24px;
+ 
+ }
+ .dot {
+  width:30px;
+ height: 30px;
+}
+
+.rec1-content h2{
+font-size: 1rem;
+font-weight: 900;
+margin-bottom: 5px;
+}
+.rec1-content p {
+  width: 82px;
+font-size: 0.70rem;
+
+}
+ 
  .rec-2{
-  top: -520px;
-left: 200px;
+  top: -540px;
+left: 180px;
+width: 145px;
+height: max-content;
+
+padding-left: 0;
 
  }
-
+ .rec-2 h3{
+font-size: 1.87rem;
+}
+.rec-2 p{
+ 
+  font-size: 0.56rem;
  
 
+}
+ .habit-content{
+  grid-template-columns: repeat(1,1fr);
+  margin-right: 50px;
+}
+.extra-mile-container{
+margin-left: 20px;
+margin-right: 20px;
 
+}
+.extra-mile{
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+ }
+.extra-mile-content{
+  width: 287px;
 
-  }
+ }
+ .extra-h2{
+  
+  width: 287px;
+height: 76px;
+  font-size: 2rem;
+  margin-top: 30px;
+
+}
+ .extra-p{
+width: 280px;
+margin-bottom: 25px;
+
+}
+#join-btn2{
+width: 287px;
+}
+.extra-mile-img{
+width: 287px;
+}
+}
   
