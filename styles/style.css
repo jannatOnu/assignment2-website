@@ -27,12 +27,12 @@
   body{
 
     background-color: black;
+  
   }
   header{
     max-width:1530px;
  margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
-   
    
   }
 .hamburger-menu{
@@ -278,7 +278,7 @@ font-weight: 400;
 .extra-mile-container{
   margin-top: 100px;
   border-radius: 18px;
-  background-color:  rgb(34, 34, 34);;
+  background-color:  rgb(34, 34, 34);
 }
 .extra-mile{
   display: flex;
@@ -333,6 +333,9 @@ font-size: 0.87;
 margin-top: 14px;
 
 }
+.team-container{
+  margin-bottom: 88px;
+}
 .BMI-calculator{
   max-width: 1530px;
   margin: 0 auto;
@@ -340,6 +343,7 @@ margin-top: 14px;
   padding: 50px 20px;
   margin-top: 88px;
   margin-bottom: 88px;
+
 }
 .bmi-h3{
   color: rgb(255, 255, 255);
@@ -390,6 +394,7 @@ text-align: left;
   display: flex;
   justify-content: space-around;
 }
+
 
 input,#sex{
   width: 282.5px;
@@ -488,8 +493,78 @@ position: relative;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.87rem;
  }
+ footer{
+  max-width: 1530px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+ }
+ .footer-container{
+  max-width: 1059px;
+  margin: 0 auto;
+  display: flex;
+justify-content: space-around;
+text-align: left;
+align-items: center;
+padding-top: 60px;
+padding-bottom: 60px;
+ }
+ .foot-fitness h2{
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  
+ }
+ .foot-fitness p{
+  width: 443px;
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+ }
+ .get-div h4{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 700;
+margin-bottom: 30px;
+ }
+ .get-div li{
+list-style: none;
+margin-bottom: 15px;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.43rem
+ }
+ hr{
+  max-width: 1059.5px;
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+ }
+ .reserved{
+  max-width:320px;
+  margin: 0 auto;
+
+ }
+ .reserved p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+padding-top: 35px;
+padding-bottom: 35px;
+
+
+ }
+ 
 
   @media screen and (max-width:576px) {
+    header{
+      width:575px;
+   margin: 0 ;
+      background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
+     
+    }
     .nav-content{
       display: none;
     }
@@ -575,8 +650,11 @@ font-size: 1.87rem;
   margin-right: 50px;
 }
 .extra-mile-container{
+  width: 400px;
+padding: 30px 33px;
 margin-left: 20px;
 margin-right: 20px;
+
 
 }
 .extra-mile{
@@ -616,33 +694,60 @@ width: 287px;
 .bmi-container h2{
  font-size: 2rem;
 }
+.BMI-calculator{
+  width: 576px;
+  margin: 0 ;
+  margin-top: 36px;
+  margin-bottom: 66px;
+  justify-content: flex-start;
+  align-items: center;
+  
+
+}
 .BMI-calculator-content{
  flex-direction: column;
  gap: 50px;
- 
+ align-items:center ;
+border: 2px solid red;
+}
+.chart-div{
+  border: 2px solid green;
+  margin-left: -50px;
 }
 
 .bmi-p{
   width: 346px;
 }
 .right-bmi-content{
-  max-width: 354px;
+max-width: 354px;
+
+
 }
 input,#sex{
-  max-width: 170.5px;
+ width: 45%;
+ /*width: 170.5px;*/
   height: auto;
 
 
 }
 #activity{
-  width: 347px;
+ /* width: 347px;*/
+width: 91%;
   height: 48px;
 }
 #cal-btn{
   width: 224px;
 }
+.team-container{
+  border: 2px solid red;
+  margin-left: 20px;
+ 
+ 
+
+}
 .team-content{
-  width: 309px;
+ width: 309px;
+  margin-left: 42px ;
   
   margin: 0 auto;
 align-items: center;
@@ -654,6 +759,10 @@ padding: 0px;
  }
  .team-content h2{
   font-size: 2rem;
+ }
+ .team-main{
+  border: 2 px solid blue;
+  align-items: center;
  }
 .card-container{
   grid-template-columns: repeat(1,1fr);
@@ -671,7 +780,40 @@ align-items: center;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-}
+
 
 }
+footer{
+  width: 576px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.1);
+ }
+.footer-container{
+  max-width: 1059px;
+  margin: 0 auto;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-align: left;
+
+padding-top: 60px;
+padding-bottom: 60px;  
+padding-left: 20px;
+padding-right: 20px;
+
+ }
+ .foot-fitness p{
+  max-width: 317px;
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+ }
+ hr{
+  width: 450px;
+ }
+ .get-div h4{
+margin-top: 30px;
+
+}
+  }
   
