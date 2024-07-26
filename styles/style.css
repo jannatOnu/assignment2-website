@@ -339,6 +339,7 @@ margin-top: 14px;
   background: rgb(34, 34, 34);
   padding: 50px 20px;
   margin-top: 88px;
+  margin-bottom: 88px;
 }
 .bmi-h3{
   color: rgb(255, 255, 255);
@@ -417,6 +418,75 @@ border: none;
 }
  .input-div{
   margin-bottom: 35px;
+ }
+ .team-content{
+  width: 671px;
+  margin: 0 auto;
+  text-align: center;
+  
+ }
+ .team-content h2{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+  
+ }
+ .team-content p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+line-height: 24px;
+ }
+ .card-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+padding: 20px;
+gap: 10px;
+margin-top: 88px;
+ }
+ .team-card{
+  width: 326.67px;
+height: 272px;
+  border-radius: 18px;
+background-color: rgba(0, 0, 0, 0.2);
+background-image:url(../images/trainer1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: overlay;
+position: relative;
+ }
+ .team-card2{
+  background-image:url(../images/trainer2.png);
+ }
+ .team-card3{
+  background-image:url(../images/trainer3.png);
+ }
+ .team-card4{
+  background-image:url(../images/trainer4.png);
+ }
+ .team-card5{
+  background-image:url(../images/trainer5.png);
+ }
+ .team-card6{
+  background-image:url(../images/trainer6.png);
+ }
+ .team-name{
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+ }
+ .team-name h5{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+ }
+ .team-name p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.87rem;
  }
 
   @media screen and (max-width:576px) {
@@ -556,11 +626,11 @@ width: 287px;
   width: 346px;
 }
 .right-bmi-content{
-  width: 354px;
+  max-width: 354px;
 }
 input,#sex{
-  width: 170.5px;
-  height: 48px;
+  max-width: 170.5px;
+  height: auto;
 
 
 }
@@ -571,5 +641,37 @@ input,#sex{
 #cal-btn{
   width: 224px;
 }
+.team-content{
+  width: 309px;
+  
+  margin: 0 auto;
+align-items: center;
+padding: 0px;
+
+  align-items: center;
+  justify-content: flex-start;
+  
+ }
+ .team-content h2{
+  font-size: 2rem;
+ }
+.card-container{
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 37px;
+  width: 363px;
+  margin-top: 37px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: flex-start;
+align-items: center;
+
+}
+.team{
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
 }
   
