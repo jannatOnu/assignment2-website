@@ -100,6 +100,8 @@ margin-right: 47px;
     width: 50%;
     justify-content: flex-start;
     align-items: flex-start;
+    border: 2px solid blue;
+    padding-top: 88px;
     
  }
  .ban-h3{
@@ -141,13 +143,16 @@ padding: 16px;
     align-items: center;
     position: relative;
     padding-left: 20px;  
+    border: 2px solid red;
  }
  
+ .banner-img-content{
+   width: 100%
+  
+ }
  .banner-img-content img{
    width: 100%
-   height: 100%;
-   
-   
+  
  }
  .rec-1{
   width: 206px;
@@ -156,14 +161,14 @@ padding: 16px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 12px;
 
-backdrop-filter: blur(10px);
+backdrop-filter: blur(7px);
 background: rgba(48, 48, 48, 0.54);
 display: flex;
 padding: 20px;
 gap: 15px;
 position:absolute ;
-left: -90px;
-top: 420px;
+left:-15%;
+top: 66%;
 
  }
  
@@ -196,8 +201,8 @@ background: rgba(255, 255, 255, 0.1);
 
 padding: 17px;
 position: relative;
-top: -450px;
-left: 200px;
+top: -570px;
+left: 258px; 
 
  }
   .rec-2 h3{
@@ -222,6 +227,9 @@ main > section{
   margin: 0 auto;
   
 
+}
+.habit-section{
+  margin-top: 20px;
 }
 .habit-title{
   margin-bottom: 58px;
@@ -248,7 +256,7 @@ text-align: center;
 }
 .card{
   margin-left: 40px;
-  border: 2px solid blue;
+  
 }
 .card-text{
   text-align: center;
@@ -321,7 +329,6 @@ margin-top: 15px;
 .bmi-container{
   max-width: 672px;
   margin: 0 auto;
- 
   margin-top: 78px;
 }
 
@@ -566,12 +573,14 @@ padding-bottom: 35px;
  
 
   @media screen and (max-width:576px) {
+    /*header section styles starts here*/
     header{
       
       width:575px;
    margin: 0 ;
       background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
-     
+      border: 2px solid red;
+      
     }
     .nav-content{
       display: none;
@@ -581,98 +590,133 @@ padding-bottom: 35px;
     }
     .banner{
      flex-direction: column;
-    gap: 150px;
+    gap: 30px;
+    width: 100%;
+    border: 2px solid green;
 }
 .banner-content{
-  width: 352px;
+  width: 100%;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align:left ; 
-  margin-left: 20px;
+  border: 2px solid pink;
+  padding: 20px;
    }
+   .div-btn{
+    width: 100%;
+    border: 2px solid tomato;
+   }
+   .div-btn button{
+    width: 47%;
+    margin: 0 5px; 
+   }
+   
 .ban-h3{
-  width: 285px;
-  font-size: 2.25rem;
-  line-height: 150%;
+  width:70%;
+  font-size: 3rem;
+  
 }
 .shape{
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;                                               
 }
 .ban-p{
-  text-align: left;
+  width: 80%;
+  text-align: justify;
 }
-.div-btn{
-  display: flex;
-  gap: 8px; 
+.banner-img{
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid olive;
 }
-#join-id{
-  width: 165px;
+.banner-img img{
+  width: 100%;
   
 }
 .rec-1{
-top: 36%;
+top: 45%;
 left:5%;
-width: 155.74px;
-height: max-content;
+width: 200px;
+height: 90px;
+display: flex;
+align-items: center;
+
  }
 
- .dot-div{
-  width: 30.24px;
- 
- }
  .dot {
-  width:30px;
- height: 30px;
+  width:40px;
+ height: 40px;
 }
 
 .rec1-content h2{
-font-size: 1rem;
+  font-size: 1.87rem;
 font-weight: 900;
 margin-bottom: 5px;
+
 }
 .rec1-content p {
-  width: 82px;
-font-size: 0.70rem;
-
+  font-size: 0.87rem;
 }
  
  .rec-2{
-  top: -540px;
-left: 180px;
-width: 145px;
-height: max-content;
-
-padding-left: 0;
+  top: -830px;
+left: 300px;
+width: 200px;
+height: 90px;
+text-align: left;
+padding-left: 5px;
 
  }
  .rec-2 h3{
 font-size: 1.87rem;
 }
 .rec-2 p{
-  font-size: 0.56rem;
+  font-size: 0.87rem;
 }
+ /*header section styles ends here*/
+  /*Change your habit section styles starts here*/
 .habit-section{
-  width:576px;
-  border: 2px solid blue;
+  width:575px;
+  border: 2px solid green;
  margin: 0 auto;
- 
-
 }
 
 
  .habit-content{
   grid-template-columns: repeat(1,1fr);
-  margin-right: 50px;
+  
+  width: 575px;
+  border: 2px solid blue;
+  margin: 0 auto;
+  gap: 40px;
 }
+ .card{
+  border: 2px solid red;
+  width: 450px;
+  margin: 0 auto;
+}
+.card-img{
+  display: flex;
+  align-items: center;
+}
+ .card img{
+  
+  width: 70%;
+}
+.card-text p{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*Change your habit section styles ends here*/
 .extra-mile-container{
-  width: 400px;
+  width: 575px;
+  margin: 0 auto;
 padding: 30px 33px;
-margin-left: 20px;
-margin-right: 20px;
-
-
-
+border: 2px solid peru;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .extra-mile{
@@ -680,20 +724,17 @@ margin-right: 20px;
   gap: 30px;
   align-items: center;
   border: 2px solid green;
-  width: 450px;
+  width: 100%;
   margin: 0 auto;
   }
  .extra-mile-content{
    width: 90%;
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
  }
 
  .extra-h2{
-  
   width: 100%;
 height: auto;
   font-size: 2rem;
@@ -701,7 +742,7 @@ height: auto;
 
 }
  .extra-p{
-width: 100%;
+width: 90%;
 margin-bottom:;
 
 }
@@ -710,66 +751,77 @@ width: 100%;
 }
 .extra-mile-img{
   width: 90%;
-border: 2px solid blue;
 }
 .bmi-container{
- margin-left: 20px;
- margin-right: 20px;
+  width: 575px;
+  margin: 0 auto;
+  border: 2px solid yellow;
+}
+
+.bmi-content{
+  width: 90%;
+  margin: 0 auto;
 }
 .bmi-container h2{
  font-size: 2rem;
 }
 .BMI-calculator{
   
-  width: 576px;
-  margin: 0 ;
+  width: 575px;
+  margin: 0 auto;
   margin-top: 36px;
   margin-bottom: 66px;
   justify-content: flex-start;
   align-items: center;
+  border: 2px solid yellow;
   
 
 }
 .BMI-calculator-content{
- flex-direction: column;
- gap: 50px;
- align-items:center ;
-border: 2px solid red;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
 }
 .chart-div{
-  border: 2px solid green;
-  margin-left: -50px;
+  width:90%;
+}
+.chart-div h3{
+  font-size: 1.5rem;
+}
+table{
+  width: 100%;
 }
 
-.bmi-p{
-  width: 346px;
-}
 .right-bmi-content{
-max-width: 354px;
+width: 100%;
+}
+.right-bmi-content h3{
+width: 100%;
+font-size: 1.5rem;
 
+}
+.right-bmi-content p{
+width: 75%;
 
 }
 input,#sex{
- width: 45%;
- /*width: 170.5px;*/
+ width: 48%;
   height: auto;
 
 
 }
 #activity{
- /* width: 347px;*/
-width: 91%;
-  height: 48px;
+width: 97%;
+  height: auto;
 }
 #cal-btn{
   width: 224px;
 }
 .team-container{
-    width:576px; 
+    width:575px; 
    margin: 0 auto;
-   
-   
-
 }
 
 .team-content{
@@ -810,17 +862,20 @@ border: 2px solid red;
 }
   
 .team{
+  width: 575px;
+  margin: 0 auto;
   display: flex;
 flex-direction: column;
 align-items: center;
-border: 2px solid green;
+border: 2px solid peru;
 margin-bottom: 50px;
 }
 
 footer{
-  width: 576px;
+  width: 575px;
+  margin: 0 auto;
   
-  
+border: 2px solid red;
   background: rgba(255, 255, 255, 0.1);
 }
   
