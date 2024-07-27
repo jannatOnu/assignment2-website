@@ -248,6 +248,7 @@ text-align: center;
 }
 .card{
   margin-left: 40px;
+  border: 2px solid blue;
 }
 .card-text{
   text-align: center;
@@ -277,10 +278,14 @@ font-weight: 400;
 }
 .extra-mile-container{
   margin-top: 100px;
-  border-radius: 18px;
-  background-color:  rgb(34, 34, 34);
+  
+  
+  
 }
 .extra-mile{
+  border-radius: 18px;
+ 
+background: rgb(34, 34, 34);
   display: flex;
   justify-content: space-between;
   padding: 25px;
@@ -424,6 +429,7 @@ border: none;
  .input-div{
   margin-bottom: 35px;
  }
+ 
  .team-content{
   width: 671px;
   margin: 0 auto;
@@ -557,9 +563,11 @@ padding-bottom: 35px;
 
  }
  
+ 
 
   @media screen and (max-width:576px) {
     header{
+      
       width:575px;
    margin: 0 ;
       background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
@@ -644,6 +652,14 @@ font-size: 1.87rem;
 .rec-2 p{
   font-size: 0.56rem;
 }
+.habit-section{
+  width:576px;
+  border: 2px solid blue;
+ margin: 0 auto;
+ 
+
+}
+
 
  .habit-content{
   grid-template-columns: repeat(1,1fr);
@@ -656,36 +672,45 @@ margin-left: 20px;
 margin-right: 20px;
 
 
+
 }
+
 .extra-mile{
   flex-direction: column;
   gap: 30px;
-  justify-content: center;
   align-items: center;
-  padding: 10px 5px;
+  border: 2px solid green;
+  width: 450px;
+  margin: 0 auto;
+  }
+ .extra-mile-content{
+   width: 90%;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
  }
-.extra-mile-content{
-  width: 287px;
 
- }
  .extra-h2{
   
-  width: 287px;
-height: 76px;
+  width: 100%;
+height: auto;
   font-size: 2rem;
-  margin-top: 30px;
+  
 
 }
  .extra-p{
-width: 280px;
-margin-bottom: 25px;
+width: 100%;
+margin-bottom:;
 
 }
 #join-btn2{
-width: 287px;
+width: 100%;
 }
 .extra-mile-img{
-width: 287px;
+  width: 90%;
+border: 2px solid blue;
 }
 .bmi-container{
  margin-left: 20px;
@@ -695,6 +720,7 @@ width: 287px;
  font-size: 2rem;
 }
 .BMI-calculator{
+  
   width: 576px;
   margin: 0 ;
   margin-top: 36px;
@@ -739,16 +765,16 @@ width: 91%;
   width: 224px;
 }
 .team-container{
-  border: 2px solid red;
-  margin-left: 20px;
- 
- 
+    width:576px; 
+   margin: 0 auto;
+   
+   
 
 }
+
 .team-content{
  width: 309px;
   margin-left: 42px ;
-  
   margin: 0 auto;
 align-items: center;
 padding: 0px;
@@ -756,38 +782,48 @@ padding: 0px;
   align-items: center;
   justify-content: flex-start;
   
+  
  }
  .team-content h2{
   font-size: 2rem;
  }
- .team-main{
-  border: 2 px solid blue;
-  align-items: center;
- }
+
 .card-container{
   grid-template-columns: repeat(1,1fr);
   margin-top: 37px;
-  width: 363px;
-  margin-top: 37px;
+  width:500px;
   margin-left: 20px;
   margin-right: 20px;
   justify-content: flex-start;
 align-items: center;
-
+border: 2px solid red;
 }
+
+
+
+.team-card{
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top:20px ;
+  
+}
+  
 .team{
   display: flex;
 flex-direction: column;
-justify-content: flex-start;
 align-items: center;
-
-
+border: 2px solid green;
+margin-bottom: 50px;
 }
+
 footer{
   width: 576px;
-  margin: 0;
+  
+  
   background: rgba(255, 255, 255, 0.1);
- }
+}
+  
 .footer-container{
   max-width: 1059px;
   margin: 0 auto;
@@ -815,5 +851,5 @@ font-size: 0.87rem;
 margin-top: 30px;
 
 }
-  }
+}
   
