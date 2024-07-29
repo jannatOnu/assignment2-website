@@ -13,10 +13,11 @@
     font-variation-settings:
       "slnt" 0;
   }
-  .fa-solid {
+  .fa-solid ,.fa-check{
     color: white;
 
   }
+
   *{
     margin: 0;
     padding: 0;
@@ -33,7 +34,7 @@
     max-width:1530px;
  margin: 0 auto;
     background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
-   
+  
   }
 .hamburger-menu{
   display: none;
@@ -100,7 +101,7 @@ margin-right: 47px;
     width: 50%;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 2px solid blue;
+    
     padding-top: 88px;
     
  }
@@ -143,7 +144,7 @@ padding: 16px;
     align-items: center;
     position: relative;
     padding-left: 20px;  
-    border: 2px solid red;
+  
  }
  
  .banner-img-content{
@@ -438,9 +439,11 @@ border: none;
  }
  
  .team-content{
-  width: 671px;
+  max-width: 671px;
   margin: 0 auto;
   text-align: center;
+
+  
   
  }
  .team-content h2{
@@ -454,7 +457,7 @@ border: none;
   color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 0.87rem;
-line-height: 24px;
+line-height: 30px;
  }
  .card-container{
   display: grid;
@@ -463,7 +466,7 @@ line-height: 24px;
 background: rgba(255, 255, 255, 0.1);
 padding: 20px;
 gap: 10px;
-margin-top: 88px;
+margin-top: 30px;
  }
  .team-card{
   width: 326.67px;
@@ -569,8 +572,76 @@ padding-bottom: 35px;
 
 
  }
- 
- 
+ .pricing{
+  margin-bottom: 60px;
+ }
+ .price-content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+  padding: 30px;
+  gap: 30px;
+  margin-top: 20px;
+ }
+ .price-title p{
+  margin-top: 30px;
+ }
+ .price-card{
+  
+  text-align: center;
+  border: 2px solid gray;
+  border-radius:18px ;
+  backdrop-filter: blur(7px);
+background: rgba(91, 89, 89, 0.54);
+box-shadow: rgba(205, 205, 224, 0.2) 0px 7px 29px 0px;
+
+ }
+ .price-card h4{
+  color: rgb(255, 255, 255);
+  font-familcolory: Inter;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+ }
+ .hr2{
+  width: 100%;
+  border: 2px solid white;
+ }
+ .hr3{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid gray;
+ }
+ .price-card h3{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.75rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ }
+ .per{
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.5);
+ }
+ .price-card li{
+  color: rgba(255, 255, 255, 0.5);
+  
+  font-family: Inter;
+  font-size: 1.43rem;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+ }
+ #card-btn{
+  margin-top:88px ;
+ }
+ .price-card button{
+margin-top: 30px;
+margin-bottom: 20px ;
+
+ }
 
   @media screen and (max-width:576px) {
     /*header section styles starts here*/
@@ -579,7 +650,7 @@ padding-bottom: 35px;
       width:575px;
    margin: 0 ;
       background: linear-gradient(180.00deg, rgb(185,185,185,0.3),rgba(119, 119, 119, 0) 100%);
-      border: 2px solid red;
+      
       
     }
     .nav-content{
@@ -592,7 +663,7 @@ padding-bottom: 35px;
      flex-direction: column;
     gap: 30px;
     width: 100%;
-    border: 2px solid green;
+   
 }
 .banner-content{
   width: 100%;
@@ -600,12 +671,12 @@ padding-bottom: 35px;
   justify-content: center;
   align-items: center;
   text-align:left ; 
-  border: 2px solid pink;
+  
   padding: 20px;
    }
    .div-btn{
     width: 100%;
-    border: 2px solid tomato;
+    
    }
    .div-btn button{
     width: 47%;
@@ -628,7 +699,7 @@ padding-bottom: 35px;
 .banner-img{
   width: 100%;
   margin: 0 auto;
-  border: 2px solid olive;
+  
 }
 .banner-img img{
   width: 100%;
@@ -678,7 +749,7 @@ font-size: 1.87rem;
   /*Change your habit section styles starts here*/
 .habit-section{
   width:575px;
-  border: 2px solid green;
+  
  margin: 0 auto;
 }
 
@@ -687,12 +758,12 @@ font-size: 1.87rem;
   grid-template-columns: repeat(1,1fr);
   
   width: 575px;
-  border: 2px solid blue;
+ 
   margin: 0 auto;
   gap: 40px;
 }
  .card{
-  border: 2px solid red;
+ 
   width: 450px;
   margin: 0 auto;
 }
@@ -714,7 +785,7 @@ font-size: 1.87rem;
   width: 575px;
   margin: 0 auto;
 padding: 30px 33px;
-border: 2px solid peru;
+
 margin-top: 50px;
 margin-bottom: 50px;
 }
@@ -723,7 +794,7 @@ margin-bottom: 50px;
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  border: 2px solid green;
+ 
   width: 100%;
   margin: 0 auto;
   }
@@ -755,7 +826,7 @@ width: 100%;
 .bmi-container{
   width: 575px;
   margin: 0 auto;
-  border: 2px solid yellow;
+
 }
 
 .bmi-content{
@@ -773,7 +844,7 @@ width: 100%;
   margin-bottom: 66px;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid yellow;
+  
   
 
 }
@@ -820,25 +891,19 @@ width: 97%;
   width: 224px;
 }
 .team-container{
-    width:575px; 
+    max-width:575px; 
    margin: 0 auto;
 }
 
 .team-content{
- width: 309px;
-  margin-left: 42px ;
-  margin: 0 auto;
-align-items: center;
-padding: 0px;
-
-  align-items: center;
-  justify-content: flex-start;
-  
-  
- }
+  max-width: 80%;
+margin: 0 auto;
+   
+}
  .team-content h2{
   font-size: 2rem;
  }
+ 
 
 .card-container{
   grid-template-columns: repeat(1,1fr);
@@ -848,7 +913,7 @@ padding: 0px;
   margin-right: 20px;
   justify-content: flex-start;
 align-items: center;
-border: 2px solid red;
+
 }
 
 
@@ -867,15 +932,35 @@ border: 2px solid red;
   display: flex;
 flex-direction: column;
 align-items: center;
-border: 2px solid peru;
+
 margin-bottom: 50px;
 }
+.pricing{
+width: 575px;
+margin: 0 auto;
+}
+.price-title p{
+  width: 80%;
+  margin: 0 auto;
+  line-height: 25px;
+  
+}
+.price-content{
+  grid-template-columns: repeat(1,1fr);
+  padding: 30px;
+  gap: 30px;
+  margin-top:-50px;
+  
+ }
+ .price-card button{
+  width: 80%;
+
+  
+   }
 
 footer{
   width: 575px;
   margin: 0 auto;
-  
-border: 2px solid red;
   background: rgba(255, 255, 255, 0.1);
 }
   
@@ -906,5 +991,6 @@ font-size: 0.87rem;
 margin-top: 30px;
 
 }
+
 }
   
