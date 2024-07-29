@@ -752,6 +752,11 @@ font-size: 1.87rem;
   
  margin: 0 auto;
 }
+.habit-title p{
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 20px;
+}
 
 
  .habit-content{
